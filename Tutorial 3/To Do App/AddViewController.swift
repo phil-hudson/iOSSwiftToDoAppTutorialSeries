@@ -11,8 +11,22 @@ import UIKit
 
 class AddViewController : UIViewController {
     
+    var delegate: ToDoDataProtocol? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
+    @IBOutlet weak var dataTextField: UITextField!
+    
+    @IBAction func doneButtonPressed(sender: AnyObject) {
+        
+//        print("data in textfield: \(dataTextField.text!)")
+        
+        self.delegate?.getData(dataTextField.text!)
+        
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
 }

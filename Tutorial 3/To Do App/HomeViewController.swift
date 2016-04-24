@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HomeViewController : UIViewController, UITableViewDelegate, UITableViewDataSource {
+class HomeViewController : UIViewController, UITableViewDelegate, UITableViewDataSource, ToDoDataProtocol {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -39,6 +39,19 @@ class HomeViewController : UIViewController, UITableViewDelegate, UITableViewDat
         
         self.performSegueWithIdentifier("AddSegue", sender: self)
     
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "AddSegue" {
+            
+            let vc = segue.destinationViewController as! AddViewController
+            vc.delegate = self
+            
+        }
+    }
+    
+    func getData(data: String) {
+        print(data)
     }
     
 }

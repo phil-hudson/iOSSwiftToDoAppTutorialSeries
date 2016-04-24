@@ -17,6 +17,7 @@
 		ED35A2981CCA06FE00AB6197 /* To_Do_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED35A2971CCA06FE00AB6197 /* To_Do_AppUITests.swift */; };
 		ED35A2A61CCA0E4B00AB6197 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED35A2A51CCA0E4B00AB6197 /* HomeViewController.swift */; };
 		ED35A2A81CCA0EDE00AB6197 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED35A2A71CCA0EDE00AB6197 /* AddViewController.swift */; };
+		ED3F46631CCCDBA700405238 /* ToDoDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F46621CCCDBA700405238 /* ToDoDataProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		ED35A2991CCA06FE00AB6197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED35A2A51CCA0E4B00AB6197 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ED35A2A71CCA0EDE00AB6197 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		ED3F46621CCCDBA700405238 /* ToDoDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoDataProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				ED35A27B1CCA06FE00AB6197 /* To_Do_App.xcdatamodeld */,
 				ED35A2A51CCA0E4B00AB6197 /* HomeViewController.swift */,
 				ED35A2A71CCA0EDE00AB6197 /* AddViewController.swift */,
+				ED3F46621CCCDBA700405238 /* ToDoDataProtocol.swift */,
 			);
 			path = "To Do App";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				ED35A2A81CCA0EDE00AB6197 /* AddViewController.swift in Sources */,
 				ED35A27D1CCA06FE00AB6197 /* To_Do_App.xcdatamodeld in Sources */,
 				ED35A2771CCA06FE00AB6197 /* ViewController.swift in Sources */,
+				ED3F46631CCCDBA700405238 /* ToDoDataProtocol.swift in Sources */,
 				ED35A2751CCA06FE00AB6197 /* AppDelegate.swift in Sources */,
 				ED35A2A61CCA0E4B00AB6197 /* HomeViewController.swift in Sources */,
 			);
